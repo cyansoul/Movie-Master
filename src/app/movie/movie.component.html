@@ -1,0 +1,9 @@
+<section id="movie">
+  <div *ngFor="let movie of movies" class="movieItem" id={{movie.id}}>
+    <input type="hidden" value="{{movie.id}}" id="{{movie.id}}_hidden">
+    <h1 class="oneline">{{movie.name}}</h1>
+    <a target="_blank" class="oneline" href="{{movie.imdb}}" style="font-size: 20px; margin-left: 10px"> IMDB Page </a>
+    <!--<p>Directed By {{movie.director}}</p>-->
+    <p>{{movie.summary}}</p>
+  </div>
+</section>

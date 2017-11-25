@@ -1,0 +1,29 @@
+.posterItem {
+  /*margin: 10px;*/
+  /*border: 1px solid #ccc;*/
+  /*width: 380px;*/
+  /*border-radius: 5px;*/
+  display: inline-block;
+  width: 32%;
+  margin: 1% 0 0 1%;
+}
+
+.posterItem:hover {
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.posterItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*.slider2 {*/
+  /*display: inline-block;*/
+/*}*/
+
+/*.slider {*/
+  /*margin: 10px;*/
+  /*display: block;*/
+/*}*/
